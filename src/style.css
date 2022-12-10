@@ -1,0 +1,36 @@
+:root{
+    --bars: cadetblue;
+    
+}
+
+#root{
+    background: url('./assets/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 22%;
+    min-height: 100vh;
+}
+
+.mainPage{
+
+}
+.header{
+    background-color: var(--bars);
+    opacity: 80%;
+}
+.nav{
+    align-items: center;
+}
+.nav-item{
+    font-size: xx-large;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: var(--bars);
+    opacity: 80%;
+    position:absolute;
+    bottom: 0;
+}
