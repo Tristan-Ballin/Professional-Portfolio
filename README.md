@@ -1,63 +1,70 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Getting Started with Create React App
 
-# Social Network API
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Description
-This project uses MongoDB to create a backend for a social network where users can make friends, post, and react with each other. We use a MVC in order to create the database, and routes to access it.
+## Available Scripts
 
-## Table of Contents
-1. [Installation](#installation)
-2. [Usage](#usage)
-3. [Links](#links)
-4. [Screenshots](#screenshots)
-5. [License](#license)
-6. [Questions](#questions)
+In the project directory, you can run:
 
-## Installation
-- Clone the repo down to your local machine
-- copy the database schema into your Dbeaver to create the database
-- Install modules by using `npm i` in your terminal
-- Then youre good to move on to the usage
+### `npm start`
 
-## Usage
-- When installed, type `npm start` in the terminal
-- Navigate to http://localhost:3001/ in a browser or with a program like insomnia
-- Use the routes provided in the code to view/change/delete from the local database
-- This is only back end so the changes will be in the database
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### User Story
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-```
-AS A social media startup
-I WANT an API for my social network that uses a NoSQL database
-SO THAT my website can handle large amounts of unstructured data
-```
+### `npm test`
 
-### Acceptance Criteria
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-```
-GIVEN a social network API
-WHEN I enter the command to invoke the application
-THEN my server is started and the Mongoose models are synced to the MongoDB database
-WHEN I open API GET routes in Insomnia for users and thoughts
-THEN the data for each of these routes is displayed in a formatted JSON
-WHEN I test API POST, PUT, and DELETE routes in Insomnia
-THEN I am able to successfully create, update, and delete users and thoughts in my database
-WHEN I test API POST and DELETE routes in Insomnia
-THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
-```
+### `npm run build`
 
-## Links
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-[Dashboard Link](https://github.com/ThatBallinGuy/Social-Network-API)
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-[Demo Link](https://drive.google.com/file/d/1I4sD4ZR2cm6x2aV-kfQO-TbP0rZ-7IEt/view)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## License
-Licensed under [MIT License](https://opensource.org/licenses/MIT)
+### `npm run eject`
 
-## Questions
-For any questions, contact me at:
-- Github: [ThatBallinGuy](https://github.com/ThatBallinGuy)
-- Email: Tballin2000@hotmail.com
-  
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
