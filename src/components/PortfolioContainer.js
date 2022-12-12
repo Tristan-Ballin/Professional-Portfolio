@@ -4,10 +4,11 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
+import Footer from './footer/Footer';
 import Headshot from '../assets/Headshot.jpg';
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState('Home');
+  const [currentPage, setCurrentPage] = useState('About');
 
   const renderPage = () => {
     if (currentPage === 'About') {
@@ -28,10 +29,11 @@ export default function PortfolioContainer() {
     <div>
       <header className="d-flex header">
       <img src={Headshot} height="120px"/>
+      <h1 className='title'>Tristan Ballin</h1>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       </header>
       {renderPage()}
-      <footer className="d-flex justify-content-center align-items-center">Hello</footer>
+      <Footer/>
     </div>
   );
 }

@@ -2,7 +2,8 @@ import React from 'react';
 
 export default function Portfolio() {
   return (
-    <div className='mainPage'>
+    <main className='d-flex mainPage align-items-center justify-content-center'>
+      <div className='content'>
       <h1>Portfolio</h1>
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
@@ -12,6 +13,7 @@ export default function Portfolio() {
         imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
         in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
       </p>
-    </div>
+      </div>
+    </main>
   );
 }

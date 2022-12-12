@@ -2,7 +2,8 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div className='mainPage'>
+    <main className='d-flex mainPage align-items-center justify-content-center'>
+      <div className='content'>
       <h1>About Me</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
@@ -16,6 +17,7 @@ export default function About() {
         vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
         fames ac ante ipsum primis in faucibus.
       </p>
-    </div>
+      </div>
+    </main>
   );
 }

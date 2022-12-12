@@ -4,9 +4,7 @@ import "./style.css";
 
 function App() {
     return (
-      <div>
-        <PortfolioContainer />;
-      </div>
+        <PortfolioContainer />
     );
   }
 

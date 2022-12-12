@@ -2,7 +2,8 @@ import React from 'react';
 
 export default function Contact() {
   return (
-    <div className='mainPage'>
+    <main className='d-flex mainPage align-items-center justify-content-center'>
+      <div className='content'>
       <h1>Contact Page</h1>
       <p>
         Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
@@ -17,6 +18,7 @@ export default function Contact() {
         conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
         rhoncus. Etiam vel condimentum magna, quis tempor nulla.
       </p>
-    </div>
+      </div>
+    </main>
   );
 }

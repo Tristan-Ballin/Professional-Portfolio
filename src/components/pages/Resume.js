@@ -2,7 +2,8 @@ import React from 'react';
 
 export default function Resume() {
   return (
-    <div className='mainPage'>
+    <main className='d-flex mainPage align-items-center justify-content-center'>
+      <div className='content'>
       <h1>Resume</h1>
       <p>
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
@@ -19,6 +20,7 @@ export default function Resume() {
         bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
         est ligula suscipit velit, sed bibendum turpis dui in sapien.
       </p>
-    </div>
+      </div>
+    </main>
   );
 }
