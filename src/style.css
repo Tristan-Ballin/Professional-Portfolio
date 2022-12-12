@@ -2,7 +2,7 @@
     --bars: rgba(20, 70, 104, 0.801);
     --text: rgb(191, 197, 190);
 }
-h1,h2,h3,h4,h5,p{
+h1,h2,h3,h4,h5,p,label{
     color: var(--text);
 }
 

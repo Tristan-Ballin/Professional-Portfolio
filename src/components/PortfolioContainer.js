@@ -28,12 +28,12 @@ export default function PortfolioContainer() {
   return (
     <div>
       <header className="d-flex header">
-      <img src={Headshot} height="120px"/>
-      <h1 className='title'>Tristan Ballin</h1>
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+        <img src={Headshot} height="120px" />
+        <h1 className='title'>Tristan Ballin</h1>
+        <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       </header>
       {renderPage()}
-      <Footer/>
+      <Footer />
     </div>
   );
 }
