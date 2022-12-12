@@ -43,6 +43,7 @@ header{
     width: 70%;
     background-color: var(--bars);
     padding: 10px;
+    border-radius: 20px;
 }
 
 footer{

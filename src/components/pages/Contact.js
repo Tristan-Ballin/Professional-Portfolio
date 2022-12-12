@@ -1,27 +1,71 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 export default function Contact() {
+
+  const handleOnSubmit = (e) => {
+    e.preventDefault();
+  }
+
+  const [isName, setIsName] = useState(true);
+  const [isEmail, setIsEmail] = useState(true);
+  const [correctEmail, setCorrectEmail] = useState(true);
+  const [isMessage, setIsMessage] = useState(true);
+
+  const validName = (e) => {
+    if (e.target.value === '')
+      setIsName(false);
+    else
+      setIsName(true);
+  };
+  const validEmail = (e) => {
+    if (e.target.value === '') {
+      setIsEmail(false);
+      setCorrectEmail(true);
+      return;
+    }
+    else
+      setIsEmail(true);
+    if (/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/.test(e.target.value))
+      setCorrectEmail(true);
+    else
+      setCorrectEmail(false);
+
+  };
+  const validMessage = (e) => {
+    if (e.target.value === '')
+      setIsMessage(false);
+    else
+    setIsMessage(true);
+  };
+
+
+  const isNameDisplay = isName ? null : `* required`;
+  const isEmailDisplay = isEmail ? null : `* required`;
+  const isEmailValid = correctEmail ? null : `* please enter a valid email address`;
+  const isMessageDisplay = isMessage ? null : `* required`;
+
+
   return (
     <main className='d-flex mainPage align-items-center justify-content-center'>
       <div className='content'>
         <h2 className='formHeader'>Contact</h2>
-        <form className='formCard' >
+        <form className='formCard' onSubmit={handleOnSubmit}>
           <div className="form-group">
             <label name="nameInput" >Name: </label>
-            <input type="text" className="form-control" id="nameInput" name='from_name' placeholder="First Name Last Name" />
-
+            <input type="text" className="form-control" id="nameInput" name='from_name' placeholder="Full Name" onChange={validName} />
+            <small id="nameHelp" className="form-text text-danger">{isNameDisplay}</small>
           </div>
           <div className="form-group">
             <label name="emailInput" >Email address:</label>
-            <input type="email" className="form-control" id="emailInput" name='from_email' placeholder="myemail@example.com" />
-
+            <input type="email" className="form-control" id="emailInput" name='from_email' placeholder="myemail@example.com" onChange={validEmail} />
+            <small id="emailHelp" className="form-text text-danger">{isEmailDisplay}{isEmailValid}</small>
           </div>
           <div className="form-group">
             <label name='messageInput' >Message:</label>
-            <textarea className="form-control" id="messageInput" rows="6" name='message' ></textarea>
-
+            <textarea className="form-control" id="messageInput" rows="6" name='message' onChange={validMessage}></textarea>
+            <small id="messageHelp" className="form-text text-danger">{isMessageDisplay}</small>
           </div>
-          <button  type='submit'>Submit</button>
+          <button type='submit'>Submit</button>
         </form>
       </div>
     </main>
