@@ -16,11 +16,13 @@ h1,h2,h3,h4,h5,p,label{
 }
 header{
     background-color: var(--bars);
-    min-height: 5vh;
+    height: 12vh;
+}
+.headshot{
+    height: 100%;
 }
 .title{
     margin-left: 1em;
-    padding-top: 10px;
     color: var(--text);
 }
 .nav{
@@ -46,15 +48,36 @@ header{
     border-radius: 20px;
 }
 
+.figure{
+    margin: 2%;
+    width: 650px;
+    height: 325px;
+    background-color: var(--bars);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.images{
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-position: top;
+}
+.figLinkContainer{
+    margin-top: 10px;
+}
+
 footer{
     width: 100%;
     min-height: 10vh;
     background-color: var(--bars);
 }
-.footerLink{
+.footerLink, .figLink{
     margin: 0 2em;
     color: var(--text);
 }
-.footerLink:hover{
+.footerLink:hover, .figLink:hover{
     color: white;
 }
