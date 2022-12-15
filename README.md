@@ -1,6 +1,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# Social Network API
+# Professional Portfolio
 
 ## Table of Contents
 1. [Description](#description)
