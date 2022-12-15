@@ -37,6 +37,13 @@ header{
 #about:hover,#portfolio:hover,#resume:hover,#contact:hover{
     color: white;
 }
+#aboutMeHead{
+    height: 150px;
+    border-radius: 100%;
+}
+#aboutHeader{
+    margin-left: 15px;
+}
 
 .mainPage{
     min-height: 78vh;
@@ -56,7 +63,6 @@ header{
     padding: 10px;
     border-radius: 20px;
 }
-
 .images{
     object-fit: cover;
     overflow: hidden;
@@ -65,13 +71,18 @@ header{
     border-radius: 20px;
     object-position: top;
 }
+.wipImage{
+    object-position: center;
+}
 .figLinkContainer{
     margin-top: 10px;
 }
 
 .resumeFig{
-    width: 60%;
-    height: 60%;
+    margin: 2%;
+    background-color: var(--bars);
+    padding: 10px;
+    border-radius: 20px;
 }
 #download{
     text-decoration: none;
@@ -90,4 +101,5 @@ footer{
 }
 .footerLink:hover, .figLink:hover{
     color: white;
+    cursor: pointer;
 }

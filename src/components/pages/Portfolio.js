@@ -2,6 +2,9 @@ import React from 'react';
 import Vivo from '../../assets/VivoVirtuoso_screenshot.jpg';
 import Auto from '../../assets/AutoAssistant.png';
 import Jate from '../../assets/JATE.png';
+import Wip from '../../assets/work-in-progress.jpg';
+import Kwip from '../../assets/keyboard-work-in-progress.jpg';
+import Soon from '../../assets/coming-soon.jpg';
 
 import { ImNewTab } from 'react-icons/im';
 import { FaGithubSquare } from 'react-icons/fa';
@@ -39,29 +42,29 @@ export default function Portfolio() {
         </div>
       </figure>
       <figure className='d-flex flex-column align-items-center figure'>
-        <img src={Vivo} className='images'></img>
+        <img src={Wip} className='images wipImage'></img>
         <div className='figLinkContainer'>
         <IconContext.Provider value={{size: '3em'}}>
-          <a href='https://github.com/ThatBallinGuy/VivoVirtuoso' className='figLink' target="_blank"><FaGithubSquare /></a>
-          <a href='https://thatballinguy.github.io/VivoVirtuoso/' className='figLink' target="_blank"><ImNewTab /></a>
+          <a href='https://github.com/ThatBallinGuy/' className='figLink' target="_blank"><FaGithubSquare /></a>
+          <a  className='figLink' target="_blank"><ImNewTab /></a>
           </IconContext.Provider>
         </div>
       </figure>
       <figure className='d-flex flex-column align-items-center figure'>
-        <img src={Vivo} className='images'></img>
+        <img src={Kwip} className='images wipImage'></img>
         <div className='figLinkContainer'>
         <IconContext.Provider value={{size: '3em'}}>
-          <a href='https://github.com/ThatBallinGuy/VivoVirtuoso' className='figLink' target="_blank"><FaGithubSquare /></a>
-          <a href='https://thatballinguy.github.io/VivoVirtuoso/' className='figLink' target="_blank"><ImNewTab /></a>
+          <a href='https://github.com/ThatBallinGuy/' className='figLink' target="_blank"><FaGithubSquare /></a>
+          <a  className='figLink' target="_blank"><ImNewTab /></a>
           </IconContext.Provider>
         </div>
       </figure>
       <figure className='d-flex flex-column align-items-center figure'>
-        <img src={Vivo} className='images'></img>
+        <img src={Soon} className='images wipImage'></img>
         <div className='figLinkContainer'>
         <IconContext.Provider value={{size: '3em'}}>
-          <a href='https://github.com/ThatBallinGuy/VivoVirtuoso' className='figLink' target="_blank"><FaGithubSquare /></a>
-          <a href='https://thatballinguy.github.io/VivoVirtuoso/' className='figLink' target="_blank"><ImNewTab /></a>
+          <a href='https://github.com/ThatBallinGuy/' className='figLink' target="_blank"><FaGithubSquare /></a>
+          <a  className='figLink' target="_blank"><ImNewTab /></a>
           </IconContext.Provider>
         </div>
       </figure>

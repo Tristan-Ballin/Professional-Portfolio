@@ -9,7 +9,7 @@ export default function Resume() {
   return (
     <main className='d-flex mainPage align-items-center justify-content-center'>
 
-      <figure className='d-flex flex-column align-items-center figure resumeFig'>
+      <figure className='d-flex flex-column align-items-center resumeFig'>
         <img src={ResumeImg} className='images'></img>
         <div className='figLinkContainer'>
         <IconContext.Provider value={{size: '1.5em'}}>
