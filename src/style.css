@@ -39,7 +39,7 @@ header{
 }
 
 .mainPage{
-    min-height: 85vh;
+    min-height: 78vh;
 }
 .content{
     width: 70%;
@@ -69,7 +69,17 @@ header{
     margin-top: 10px;
 }
 
+.resumeFig{
+    width: 60%;
+    height: 60%;
+}
+#download{
+    text-decoration: none;
+    font-size: x-large;
+}
+
 footer{
+    margin-top: auto;
     width: 100%;
     min-height: 10vh;
     background-color: var(--bars);

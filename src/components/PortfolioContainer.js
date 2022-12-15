@@ -26,7 +26,7 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <>
       <header className="d-flex align-items-center">
         <img src={Headshot} className='headshot'/>
         <h1 className='title'>Tristan Ballin</h1>
@@ -34,6 +34,6 @@ export default function PortfolioContainer() {
       </header>
       {renderPage()}
       <Footer />
-    </div>
+    </>
   );
 }

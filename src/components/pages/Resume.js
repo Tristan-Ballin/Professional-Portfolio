@@ -1,26 +1,23 @@
 import React from 'react';
+import ResumeImg from '../../assets/Resume.png';
+import ResumePdf from '../../assets/Tristan_Resume.pdf'
+
+import { BiDownload } from 'react-icons/bi';
+import { IconContext } from "react-icons";
 
 export default function Resume() {
   return (
     <main className='d-flex mainPage align-items-center justify-content-center'>
-      <div className='content'>
-      <h1>Resume</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
-      </div>
+
+      <figure className='d-flex flex-column align-items-center figure resumeFig'>
+        <img src={ResumeImg} className='images'></img>
+        <div className='figLinkContainer'>
+        <IconContext.Provider value={{size: '1.5em'}}>
+          <a href={ResumePdf} className='figLink' id='download' target="_blank"><BiDownload /> Download</a>
+          </IconContext.Provider>
+        </div>
+      </figure>
+
     </main>
   );
 }
