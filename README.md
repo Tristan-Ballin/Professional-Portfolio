@@ -13,9 +13,9 @@ This project uses ReactJS to build a webpage that acts as my portfolio. Feel fre
 
 ## Links
 
-[Dashboard Link](https://github.com/ThatBallinGuy/Professional-Portfolio)
+[Dashboard Link](https://github.com/tristan-ballin/Professional-Portfolio)
 
-[Deployment Link](https://thatballinguy.github.io/Professional-Portfolio/)
+[Deployment Link](https://tristan-ballin.github.io/Professional-Portfolio/)
 
 ## License
 Licensed under [MIT License](https://opensource.org/licenses/MIT)
