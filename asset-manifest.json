@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Professional-Portfolio/static/css/main.0f52b8ea.css",
-    "main.js": "/Professional-Portfolio/static/js/main.67d0c80a.js",
+    "main.js": "/Professional-Portfolio/static/js/main.ac5b22da.js",
     "static/media/coming-soon.jpg": "/Professional-Portfolio/static/media/coming-soon.5d3caa54e824a6184909.jpg",
     "static/media/AutoAssistant.png": "/Professional-Portfolio/static/media/AutoAssistant.c0f7eeb03ebb75b73fd6.png",
     "static/media/background.jpg": "/Professional-Portfolio/static/media/background.89d0cae545223e326b54.jpg",
@@ -10,15 +10,15 @@
     "static/media/VivoVirtuoso_screenshot.jpg": "/Professional-Portfolio/static/media/VivoVirtuoso_screenshot.599bf05a76912e78ecd3.jpg",
     "static/media/Headshot.jpg": "/Professional-Portfolio/static/media/Headshot.4a3614ef227673fc10cd.jpg",
     "static/media/Technigram.jpg": "/Professional-Portfolio/static/media/Technigram.eae10edbe7a6ef2fadfb.jpg",
-    "static/media/Resume.png": "/Professional-Portfolio/static/media/Resume.e8b2bcb196655d6fbc23.png",
-    "static/media/Tristan_Resume.pdf": "/Professional-Portfolio/static/media/Tristan_Resume.0b44048e454b58538c09.pdf",
+    "static/media/Resume.png": "/Professional-Portfolio/static/media/Resume.ca237759c268dd620b87.png",
+    "static/media/Tristan_Resume.pdf": "/Professional-Portfolio/static/media/Tristan_Resume.b096f1ce3ab7b7dacab8.pdf",
     "static/media/JATE.png": "/Professional-Portfolio/static/media/JATE.f41d3a870e52d253c75c.png",
     "index.html": "/Professional-Portfolio/index.html",
     "main.0f52b8ea.css.map": "/Professional-Portfolio/static/css/main.0f52b8ea.css.map",
-    "main.67d0c80a.js.map": "/Professional-Portfolio/static/js/main.67d0c80a.js.map"
+    "main.ac5b22da.js.map": "/Professional-Portfolio/static/js/main.ac5b22da.js.map"
   },
   "entrypoints": [
     "static/css/main.0f52b8ea.css",
-    "static/js/main.67d0c80a.js"
+    "static/js/main.ac5b22da.js"
   ]
 }
