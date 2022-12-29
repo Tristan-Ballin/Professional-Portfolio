@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Professional-Portfolio/static/css/main.0f52b8ea.css",
-    "main.js": "/Professional-Portfolio/static/js/main.ab3d493f.js",
+    "main.js": "/Professional-Portfolio/static/js/main.67d0c80a.js",
     "static/media/coming-soon.jpg": "/Professional-Portfolio/static/media/coming-soon.5d3caa54e824a6184909.jpg",
     "static/media/AutoAssistant.png": "/Professional-Portfolio/static/media/AutoAssistant.c0f7eeb03ebb75b73fd6.png",
     "static/media/background.jpg": "/Professional-Portfolio/static/media/background.89d0cae545223e326b54.jpg",
@@ -15,10 +15,10 @@
     "static/media/JATE.png": "/Professional-Portfolio/static/media/JATE.f41d3a870e52d253c75c.png",
     "index.html": "/Professional-Portfolio/index.html",
     "main.0f52b8ea.css.map": "/Professional-Portfolio/static/css/main.0f52b8ea.css.map",
-    "main.ab3d493f.js.map": "/Professional-Portfolio/static/js/main.ab3d493f.js.map"
+    "main.67d0c80a.js.map": "/Professional-Portfolio/static/js/main.67d0c80a.js.map"
   },
   "entrypoints": [
     "static/css/main.0f52b8ea.css",
-    "static/js/main.ab3d493f.js"
+    "static/js/main.67d0c80a.js"
   ]
 }
