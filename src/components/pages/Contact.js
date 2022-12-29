@@ -4,6 +4,10 @@ import Swal from 'sweetalert2';
 
 export default function Contact() {
 
+  const serviceID = process.env.REACT_APP_SERVICE_ID;
+  const templateID = process.env.REACT_APP_TEMPLATE_ID;
+  const userID = process.env.REACT_APP_USER_ID;
+
   const handleOnSubmit = (e) => {
     e.preventDefault();
     const nameInput = document.querySelector('#nameInput');
