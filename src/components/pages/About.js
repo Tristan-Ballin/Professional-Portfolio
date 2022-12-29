@@ -10,16 +10,7 @@ export default function About() {
           <h1 id='aboutHeader'>About Me</h1>
         </div>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-          velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-          ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-          non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-          ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-          rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-          tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-          porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-          vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-          fames ac ante ipsum primis in faucibus.
+          Hi, I'm Tristan Ballin, a Software Developer. For as long as I can remember I have always been interested in technology and what makes it work. In 2017 I went to Florida Polytechnic University to start my journey in programming and never looked back. In the fall of 2022 I started the UCF full stack development bootcamp to enhance the skills I learned from my degree and add more practical skills to my arsenal. Now I'm enjoying finding new opportunities to increase my skills in order to become the best developer I can be!
         </p>
       </div>
     </main>
