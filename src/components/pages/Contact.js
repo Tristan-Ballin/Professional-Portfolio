@@ -1,9 +1,39 @@
 import React, { useState } from 'react';
+import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
 
 export default function Contact() {
 
   const handleOnSubmit = (e) => {
     e.preventDefault();
+    const nameInput = document.querySelector('#nameInput');
+    const emailInput = document.querySelector('#emailInput');
+    const messageInput = document.querySelector('#messageInput');
+
+    if (nameInput.value && emailInput.value && messageInput.value !== '') {
+      emailjs.sendForm(serviceID, templateID, e.target, userID)
+          .then((response) => {
+              Swal.fire({
+                  icon: `success`,
+                  title: `Your Message Was Sent Successfully.`
+              })
+          }, (error) => {
+              Swal.fire({
+                  icon: `error`,
+                  title: `Uh Oh! There was an error processing your request`,
+                  text: 'Please send an email directly to Tballin2000@hotmail.com',
+              })
+              console.log(error);
+          });
+      e.target.reset()
+  }
+  else {
+      Swal.fire({
+          icon: `error`,
+          title: `Uh Oh! There was an error processing your request`,
+          text: 'Please fill out all of the required fields before your request can be processed.',
+      })
+  }
   }
 
   const [isName, setIsName] = useState(true);
