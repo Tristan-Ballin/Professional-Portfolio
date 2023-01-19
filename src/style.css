@@ -5,6 +5,9 @@
 h1,h2,h3,h4,h5,p,label{
     color: var(--text);
 }
+p{
+    font-size: large;
+}
 
 #root{
     background: url('./assets/background.jpg');

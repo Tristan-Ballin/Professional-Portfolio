@@ -3,6 +3,8 @@ import Headshot from '../../assets/Headshot.jpg';
 import Cluster from '../../assets/html-css-js.png';
 import ReactImg from '../../assets/react.png';
 import Mysql from '../../assets/mysql.png';
+import Python from '../../assets/python.png';
+import Java from '../../assets/java.png';
 
 export default function About() {
   return (
@@ -12,6 +14,8 @@ export default function About() {
           <img src={Headshot} height='150px' id='aboutMeHead' ></img>
           <div className='d-flex align-items-center' >
           <img src={Cluster} height='100px' className='aboutSkills'></img>
+          <img src={Python} height='100px' className='aboutSkills'></img>
+          <img src={Java} height='100px' className='aboutSkills'></img>
           <img src={Mysql} height='100px' className='aboutSkills'></img>
           <img src={ReactImg} height='100px' className='aboutSkills'></img>
           </div>
