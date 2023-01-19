@@ -44,6 +44,9 @@ header{
 #aboutHeader{
     margin-left: 15px;
 }
+.aboutSkills{
+    margin: 0 10px;
+}
 
 .mainPage{
     min-height: 78vh;

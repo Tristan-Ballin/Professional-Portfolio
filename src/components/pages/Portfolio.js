@@ -2,9 +2,9 @@ import React from 'react';
 import Vivo from '../../assets/VivoVirtuoso_screenshot.jpg';
 import Auto from '../../assets/AutoAssistant.png';
 import Jate from '../../assets/JATE.png';
-import Wip from '../../assets/work-in-progress.jpg';
-import Kwip from '../../assets/keyboard-work-in-progress.jpg';
-import Soon from '../../assets/coming-soon.jpg';
+// import Wip from '../../assets/work-in-progress.jpg';
+// import Kwip from '../../assets/keyboard-work-in-progress.jpg';
+// import Soon from '../../assets/coming-soon.jpg';
 import Technigram from '../../assets/Technigram.jpg';
 
 import { ImNewTab } from 'react-icons/im';
@@ -19,8 +19,8 @@ export default function Portfolio() {
         <img src={Vivo} className='images'></img>
         <div className='figLinkContainer'>
         <IconContext.Provider value={{size: '3em'}}>
-          <a href='https://github.com/ThatBallinGuy/VivoVirtuoso' className='figLink' target="_blank"><FaGithubSquare /></a>
-          <a href='https://thatballinguy.github.io/VivoVirtuoso/' className='figLink' target="_blank"><ImNewTab /></a>
+          <a href='https://github.com/tristan-ballin/VivoVirtuoso' className='figLink' target="_blank"><FaGithubSquare /></a>
+          <a href='https://tristan-ballin.github.io/VivoVirtuoso/' className='figLink' target="_blank"><ImNewTab /></a>
           </IconContext.Provider>
         </div>
       </figure>
@@ -51,7 +51,7 @@ export default function Portfolio() {
           </IconContext.Provider>
         </div>
       </figure>
-      <figure className='d-flex flex-column align-items-center figure'>
+      {/* <figure className='d-flex flex-column align-items-center figure'>
         <img src={Wip} className='images wipImage'></img>
         <div className='figLinkContainer'>
         <IconContext.Provider value={{size: '3em'}}>
@@ -68,7 +68,7 @@ export default function Portfolio() {
           <a  className='figLink' target="_blank"><ImNewTab /></a>
           </IconContext.Provider>
         </div>
-      </figure>
+      </figure> */}
       
       
       
