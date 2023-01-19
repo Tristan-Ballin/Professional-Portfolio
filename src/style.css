@@ -48,7 +48,11 @@ header{
     margin-left: 15px;
 }
 .aboutSkills{
-    margin: 0 10px;
+    margin: 5px 10px 0 10px;
+    height: 100px;
+}
+.skillsContainer{
+    width: 60%;
 }
 
 .mainPage{
