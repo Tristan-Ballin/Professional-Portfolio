@@ -82,7 +82,7 @@ export default function Contact() {
   return (
     <main className='d-flex mainPage align-items-center justify-content-center'>
       <div className='content'>
-        <h2 className='formHeader'>Contact</h2>
+        <h2 className='formHeader'>Contact Me</h2><h5>Fill out the form or email me me at <a href='mailto: tballin2000@hotmail.com'>Tballin2000@hotmail.com</a></h5>
         <form className='formCard' onSubmit={handleOnSubmit}>
           <div className="form-group">
             <label name="nameInput" >Name: </label>
@@ -99,7 +99,7 @@ export default function Contact() {
             <textarea className="form-control" id="messageInput" rows="6" name='message' onChange={validMessage}></textarea>
             <small id="messageHelp" className="form-text text-danger">{isMessageDisplay}</small>
           </div>
-          <button type='submit'>Submit</button>
+          <button type='submit' className='btn btn-outline-light'>Submit</button>
         </form>
       </div>
     </main>
