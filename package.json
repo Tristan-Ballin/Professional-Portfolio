@@ -21,7 +21,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "echo 'tristanballin.com' > .build/CNAME && gh-pages -d build",
+    "deploy": "echo 'tristanballin.com' > CNAME && gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
