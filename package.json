@@ -1,7 +1,7 @@
 {
   "name": "react_portfolio",
   "version": "0.1.0",
-  "homepage": "https://thatballinguy.github.io/",
+  "homepage": "https://thatballinguy.github.io/Professional-Portfolio/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
