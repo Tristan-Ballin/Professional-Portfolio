@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.bf548a33.css",
-    "main.js": "/static/js/main.e56cbc94.js",
+    "main.js": "/static/js/main.d936b7b9.js",
     "static/media/AutoAssistant.png": "/static/media/AutoAssistant.c0f7eeb03ebb75b73fd6.png",
     "static/media/background.jpg": "/static/media/background.89d0cae545223e326b54.jpg",
     "static/media/VivoVirtuoso_screenshot.jpg": "/static/media/VivoVirtuoso_screenshot.599bf05a76912e78ecd3.jpg",
     "static/media/Headshot.jpg": "/static/media/Headshot.4a3614ef227673fc10cd.jpg",
     "static/media/Technigram.jpg": "/static/media/Technigram.eae10edbe7a6ef2fadfb.jpg",
-    "static/media/Resume.png": "/static/media/Resume.93c3c9355ed48892154b.png",
+    "static/media/Resume.png": "/static/media/Resume.05a2ea05d55519e86e94.png",
     "static/media/html-css-js.png": "/static/media/html-css-js.9e2517dc2f32727cd3ac.png",
-    "static/media/Tristan_Resume.pdf": "/static/media/Tristan_Resume.b096f1ce3ab7b7dacab8.pdf",
+    "static/media/Tristan_Resume.pdf": "/static/media/Tristan_Resume.10b3f8117790fd192e81.pdf",
     "static/media/python.png": "/static/media/python.a4de8c552d6511c12aaf.png",
     "static/media/react.png": "/static/media/react.c2861c4dff64d52adf93.png",
     "static/media/JATE.png": "/static/media/JATE.f41d3a870e52d253c75c.png",
     "static/media/java.png": "/static/media/java.375f91150aebfc2e19ef.png",
     "index.html": "/index.html",
     "main.bf548a33.css.map": "/static/css/main.bf548a33.css.map",
-    "main.e56cbc94.js.map": "/static/js/main.e56cbc94.js.map"
+    "main.d936b7b9.js.map": "/static/js/main.d936b7b9.js.map"
   },
   "entrypoints": [
     "static/css/main.bf548a33.css",
-    "static/js/main.e56cbc94.js"
+    "static/js/main.d936b7b9.js"
   ]
 }
