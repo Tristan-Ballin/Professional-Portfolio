@@ -10,10 +10,10 @@ export default function Resume() {
     <main className='d-flex mainPage align-items-center justify-content-center'>
 
       <figure className='d-flex flex-column align-items-center resumeFig'>
-        <img src={ResumeImg} className='images'></img>
+        <img src={ResumeImg} className='images' alt='Sample of Resume'></img>
         <div className='figLinkContainer'>
         <IconContext.Provider value={{size: '1.5em'}}>
-          <a href={ResumePdf} className='figLink' id='download' target="_blank"><BiDownload /> Download</a>
+          <a href={ResumePdf} className='figLink' id='download' target="_blank" rel="noreferrer"><BiDownload /> Download</a>
           </IconContext.Provider>
         </div>
       </figure>

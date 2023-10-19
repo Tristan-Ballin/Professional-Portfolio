@@ -9,9 +9,9 @@ return (
     
     <footer className="d-flex justify-content-center align-items-center">
         <IconContext.Provider value={{size: '5em'}}>
-        <a className='footerLink' href='https://github.com/ThatBallinGuy' target="_blank"><FaGithubSquare /></a>
-        <a className='footerLink' href='https://www.linkedin.com/in/tristan-ballin/' target="_blank"><AiOutlineLinkedin /></a>
-        <a className='footerLink' href='mailto: tballin2000@hotmail.com' target="_blank"><HiOutlineMail /></a>
+        <a className='footerLink' href='https://github.com/ThatBallinGuy' target="_blank" rel="noreferrer"><FaGithubSquare /></a>
+        <a className='footerLink' href='https://www.linkedin.com/in/tristan-ballin/' target="_blank" rel="noreferrer"><AiOutlineLinkedin /></a>
+        <a className='footerLink' href='mailto: tballin2000@hotmail.com' target="_blank" rel="noreferrer"><HiOutlineMail /></a>
         </IconContext.Provider>
     </footer>
     )

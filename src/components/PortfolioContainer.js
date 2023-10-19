@@ -28,7 +28,7 @@ export default function PortfolioContainer() {
   return (
     <>
       <header className="d-flex align-items-center">
-        <img src={Headshot} className='headshot'/>
+        <img src={Headshot} className='headshot' alt='Headshot of Tristan'/>
         <h1 className='title'>Tristan Ballin</h1>
         <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       </header>

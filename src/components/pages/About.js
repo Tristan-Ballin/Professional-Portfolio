@@ -11,13 +11,13 @@ export default function About() {
     <main className='d-flex mainPage align-items-center justify-content-center'>
       <div className='content'>
         <div className='d-flex align-items-center mb-3 justify-content-between'>
-          <img src={Headshot} height='150px' id='aboutMeHead' ></img>
+          <img src={Headshot} height='150px' id='aboutMeHead' alt='Headshot of Tristan'></img>
           <div className='d-flex align-items-center justify-content-around flex-wrap skillsContainer' >
-          <img src={Cluster} className='aboutSkills'></img>
-          <img src={Python}  className='aboutSkills'></img>
-          <img src={Java}  className='aboutSkills'></img>
-          <img src={Mysql}  className='aboutSkills'></img>
-          <img src={ReactImg}  className='aboutSkills'></img>
+          <img src={Cluster} className='aboutSkills' alt='Cluster Icon'></img>
+          <img src={Python}  className='aboutSkills' alt='Python Icon'></img>
+          <img src={Java}  className='aboutSkills' alt='Java Icon'></img>
+          <img src={Mysql}  className='aboutSkills' alt='MySQL Icon'></img>
+          <img src={ReactImg}  className='aboutSkills' alt='React Icon'></img>
           </div>
         </div>
         <p>
